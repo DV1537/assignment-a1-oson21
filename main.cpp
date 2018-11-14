@@ -23,12 +23,11 @@ int main(int argc, const char * argv[])
         sum += a;
 
 
-        ///TTEEEESST
+    
     }
     myReadFile.close();
     
-    gghhgghgh
-    
+        
     std::cout << sum << "\n";
     
     return 0;
