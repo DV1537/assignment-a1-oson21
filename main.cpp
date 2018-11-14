@@ -25,7 +25,7 @@ int main(int argc, const char * argv[])
     myReadFile.close();
     
     
-    
+    kuk
     std::cout << sum << "\n";
     
     return 0;
