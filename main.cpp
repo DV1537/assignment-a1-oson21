@@ -21,10 +21,13 @@ int main(int argc, const char * argv[])
     while (myReadFile >> a)
     {
         sum += a;
+
+
+        ///TTEEEESST
     }
     myReadFile.close();
     
-    
+    gghhgghgh
     
     std::cout << sum << "\n";
     
