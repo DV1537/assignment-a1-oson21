@@ -20,7 +20,7 @@ int main(int argc, const char * argv[])
     
     while (myReadFile >> a)
     {
-        sum += a;    
+        sum += a;
     }
     myReadFile.close();
     
@@ -30,3 +30,4 @@ int main(int argc, const char * argv[])
     return 0;
 }
 
+blabla
