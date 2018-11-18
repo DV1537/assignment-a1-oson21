@@ -20,22 +20,22 @@ int main(int argc, const char *argv[]){
     myReadFile.open(fileName);
 
     if(myReadFile){    
-    int counter = 0;
-    while(myReadFile >> a){
-        sum += a;
-        array[counter] = a;
-        counter++; 
-    }
+        int counter = 0;
+        while(myReadFile >> a){
+            sum += a;
+            array[counter] = a;
+            counter++; 
+        }
 
-    myReadFile.close();
+        myReadFile.close();
     
-    average = sum/n;
+        average = sum/n;
  
-    PrintNumbers(average, array, n);
+        PrintNumbers(average, array, n);
     
-    delete [] array;
-    array = 0;
-    return 0;
+        delete [] array;
+        array = 0;
+        return 0;
     }
     else{
         myReadFile.close();

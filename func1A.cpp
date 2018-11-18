@@ -9,7 +9,7 @@ void CountInput(const char *fileName, int &n){
     myReadFile.open(fileName);
     
     while(myReadFile >> a){
-      n++;
+        n++;
     }  
 
    myReadFile.close();
